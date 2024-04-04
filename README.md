@@ -3,8 +3,8 @@
     <img src="https://img.shields.io/badge/KAVINGAM-white?style=flat-square&logo=github&logoColor=black" alt="github">
 </div>
 
-<detail>
-    <summery>table of content</summery>
+<details>
+    <summary>table of content</summary>
     <ol>
         <li>
             <a alt="" href=""></a>
@@ -35,4 +35,4 @@
             </ul>
         </li>
     </ol>
-</detail>
+</details>
