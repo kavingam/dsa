@@ -19,6 +19,8 @@
                     <a alt="" href="">Data Structures</a>
                     <ul>
                         <a alt="" href="">Linear and Non linear data structure</a>
+                    </ul>
+                    <ul>
                         <a alt="" href="">Static and dynamic data structure</a>
                     </ul>
                 </li>
