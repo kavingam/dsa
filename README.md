@@ -51,7 +51,7 @@
             </ul>
         </li>
         <li>
-            <a alt="" href="">Arrays,Pointers and Structures</a>
+            <a alt="" href="">Chapter 2. Arrays,Pointers and Structures</a>
             <ul>
                 <a alt="" href=""></a>
                 <a alt="" href=""></a>
