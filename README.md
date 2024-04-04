@@ -13,16 +13,23 @@
                     <a alt="" href="">Data Type</a>
                 </li>
                 <li>
-                    <a alt="" href="">Data Type</a>
+                    <a alt="" href="">Abstract Data Type</a>
                 </li>
                 <li>
-                    <a alt="" href="">Data Type</a>
+                    <a alt="" href="">Data Structures</a>
                     <ul>
-                        <a alt="" href="">Linear</a>
+                        <a alt="" href="">Linear and Non linear data structure</a>
+                        <a alt="" href="">Static and dynamic data structure</a>
                     </ul>
                 </li>
                 <li>
-                    <a alt="" href="">Data Type</a>
+                    <a alt="" href="">Algorithms</a>
+                    <ul>
+                        <a alt="" href="">Greedy algorithm</a>
+                        <a alt="" href="">Divide and conquer algorithm</a>
+                        <a alt="" href="">Backtracking</a>
+                        <a alt="" href="">Randomized algorithm</a> 
+                    </ul>
                 </li>
                 <li>
                     <a alt="" href="">Data Type</a>
