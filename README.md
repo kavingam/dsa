@@ -28,9 +28,15 @@
                     <a alt="" href="">Algorithms</a>
                     <ul>
                         <a alt="" href="">Greedy algorithm</a>
+                    </ul>
+                    <ul>
                         <a alt="" href="">Divide and conquer algorithm</a>
+                    </ul>
+                    <ul>
                         <a alt="" href="">Backtracking</a>
-                        <a alt="" href="">Randomized algorithm</a> 
+                    </ul>
+                    <ul>
+                        <a alt="" href="">Randomized algorithm</a>
                     </ul>
                 </li>
                 <li>
