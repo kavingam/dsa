@@ -7,21 +7,21 @@
     <summary>table of content</summary>
     <ol>
         <li>
-            <a alt="" href="">Introduction</a>
+            <a alt="" href="">Chapter1 .Introduction</a>
             <ul>
                 <li>
-                    <a alt="" href="">Data Type</a>
+                    <a alt="" href="">1.1 Data Type</a>
                 </li>
                 <li>
-                    <a alt="" href="">Abstract Data Type</a>
+                    <a alt="" href="">1.2 Abstract Data Type</a>
                 </li>
                 <li>
-                    <a alt="" href="">Data Structures</a>
+                    <a alt="" href="">1.3 Data Structures</a>
                     <ul>
-                        <a alt="" href="">Linear and Non linear data structure</a>
+                        <a alt="" href="">1.3.1 Linear and Non linear data structure</a>
                     </ul>
                     <ul>
-                        <a alt="" href="">Static and dynamic data structure</a>
+                        <a alt="" href="">1.3.2 Static and dynamic data structure</a>
                     </ul>
                 </li>
                 <li>
