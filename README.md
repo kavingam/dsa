@@ -40,7 +40,13 @@
                     </ul>
                 </li>
                 <li>
-                    <a alt="" href="">Data Type</a>
+                    <a alt="" href="">Analysis of algorithms</a>
+                    <ul>
+                        <a alt="" href="">Big O notation</a>
+                    </ul>
+                    <ul>
+                        <a alt="" href="">Rule for O notation</a>
+                    </ul>
                 </li>
             </ul>
         </li>
