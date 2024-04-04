@@ -25,27 +25,27 @@
                     </ul>
                 </li>
                 <li>
-                    <a alt="" href="">Algorithms</a>
+                    <a alt="" href="">1.4 Algorithms</a>
                     <ul>
-                        <a alt="" href="">Greedy algorithm</a>
+                        <a alt="" href="">1.4.1 Greedy algorithm</a>
                     </ul>
                     <ul>
-                        <a alt="" href="">Divide and conquer algorithm</a>
+                        <a alt="" href="">1.4.2 Divide and conquer algorithm</a>
                     </ul>
                     <ul>
-                        <a alt="" href="">Backtracking</a>
+                        <a alt="" href="">1.4.3 Backtracking</a>
                     </ul>
                     <ul>
-                        <a alt="" href="">Randomized algorithm</a>
+                        <a alt="" href="">1.4.4 Randomized algorithm</a>
                     </ul>
                 </li>
                 <li>
-                    <a alt="" href="">Analysis of algorithms</a>
+                    <a alt="" href="">1.5 Analysis of algorithms</a>
                     <ul>
-                        <a alt="" href="">Big O notation</a>
+                        <a alt="" href="">1.5.1 Big O notation</a>
                     </ul>
                     <ul>
-                        <a alt="" href="">Rule for O notation</a>
+                        <a alt="" href="">1.5.1.1 Rule for O notation</a>
                     </ul>
                 </li>
             </ul>
