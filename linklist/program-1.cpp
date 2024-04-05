@@ -45,14 +45,33 @@ class single{
         }
         /*function addafter() insert a new node at the after the node */
         void addafter(int data,int item){
-            node *tmp,*ptr = new node;
+            node *ptr,*tmp;
+            ptr = head;
+            while(ptr != NULL){
+                if(ptr->data == item){
+                    tmp = new node;
+                    tmp->data = data;
+                    tmp->next = ptr->next;
+                    ptr->next = tmp;
+                }
+                ptr=ptr->next;
+            }
         }
+
 };
 int main() {
     single obj;
-    obj.addbeg(1);
-    obj.addbeg(2);
-    // obj.addend(3);
+    /*create list single linked list*/
+    for(int i= 0;i < 10;i++){
+        if(i == 0){
+            obj.addbeg(i);
+        }
+        else {
+            obj.addend(i);
+        }
+    }
+    /*function display() call*/
+    obj.addafter(78,5);
     obj.display();
     return 0;
 }
