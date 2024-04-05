@@ -81,6 +81,29 @@ class single{
 				ptr=ptr->next;
 			}				
 		}
+        /*function addpos() insert a new node at the given pos*/
+        void addpos(int data,int pos){
+            node *tmp,*ptr;
+            int i;
+            tmp = new node;
+            tmp->data = data;
+            if(pos == 1){
+                tmp->next = head;
+                head = tmp;
+                return;
+            }
+            ptr = head;
+            for(i=1;i<pos-1&&ptr!=NULL;i++){
+                ptr=ptr->next;
+            }
+            if(ptr==NULL){
+
+            }
+            else {
+                tmp->next = ptr->next;
+                ptr->next = tmp;
+            }
+        }
 };
 int main() {
     single obj;
@@ -94,8 +117,9 @@ int main() {
         }
     }
     /*function display() call*/
-   obj.addafter(78,6);
+    obj.addafter(78,6);
     obj.addbefore(75,6);
+    obj.addpos(65,5);
     obj.display();
     return 0;
 }
