@@ -104,6 +104,19 @@ class single{
                 ptr->next = tmp;
             }
         }
+        /*function reveres() */
+        void reverse(){
+            node *next,*ptr,*prev;
+            prev = NULL;
+            ptr = head;
+            while(ptr!=NULL){
+                next = ptr->next;
+                ptr->next = prev;
+                prev = ptr;
+                ptr = next;
+            }
+            head = prev;
+        }
 };
 int main() {
     single obj;
@@ -117,9 +130,10 @@ int main() {
         }
     }
     /*function display() call*/
-    obj.addafter(78,6);
-    obj.addbefore(75,6);
-    obj.addpos(65,5);
+    // obj.addafter(78,6);
+    // obj.addbefore(75,6);
+    // obj.addpos(65,5);
+    obj.reverse();
     obj.display();
     return 0;
 }
