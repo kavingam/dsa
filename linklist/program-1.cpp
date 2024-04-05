@@ -57,7 +57,30 @@ class single{
                 ptr=ptr->next;
             }
         }
+        /*function addbefore() insert a new node at the before the node*/
+        void addbefore(int data,int item){
+            node *tmp,*ptr;
 
+			if(head->data == item){
+				tmp = new node;
+				tmp->data = data;
+				tmp->next = head;
+				head = tmp;
+			}		
+
+			ptr=head;
+			while(ptr->next != NULL){
+				if(ptr->next->data == item){
+					// cout<<ptr->data<<"\n"<<ptr->next->data<<"\n";
+					tmp = new node;
+					tmp->data = data;
+					tmp->next = ptr->next;
+					ptr->next = tmp;
+					break;
+				}
+				ptr=ptr->next;
+			}				
+		}
 };
 int main() {
     single obj;
@@ -71,7 +94,8 @@ int main() {
         }
     }
     /*function display() call*/
-    obj.addafter(78,5);
+   obj.addafter(78,6);
+    obj.addbefore(75,6);
     obj.display();
     return 0;
 }
