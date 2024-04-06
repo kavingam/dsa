@@ -117,6 +117,26 @@ class single{
             }
             head = prev;
         }
+        /*functio  delete a first node and between node*/
+        void delbeg(){
+            if(head!=NULL){
+//                printf("%d %d",head->data,head->next->data);
+                 node *tmp = head;
+                 head = head->next;
+                 free(tmp);
+            }
+        }
+        /**/
+        void delend(){
+			node *ptr,*tmp;
+			ptr = head;
+			while(ptr->next != NULL){
+				ptr=ptr->next;
+			}		
+        }
+        void delpos(){
+
+        }
 };
 int main() {
     single obj;
@@ -133,7 +153,9 @@ int main() {
     // obj.addafter(78,6);
     // obj.addbefore(75,6);
     // obj.addpos(65,5);
-    obj.reverse();
+    // obj.reverse();
+//    obj.delbeg();
+    obj.delend();
     obj.display();
     return 0;
 }
