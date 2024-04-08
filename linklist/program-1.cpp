@@ -180,24 +180,38 @@ class single{
 };
 int main() {
     single obj;
-    /*create list single linked list*/
-    for(int i= 0;i < 10;i++){
-        if(i == 0){
-            obj.addbeg(i);
-        }
-        else {
-            obj.addend(i);
+    int n,i,choice,data,pos;
+    while(true){
+        cout<<"01.create list\n02.display\n03.count\n04.count\n05.search\n06.addbeg / add empty\n07.addend\n08.addpos\n09.delbeg\n10.delend\n11.delpos\n12.reseve\n13.quit\n\nenter your choice:";
+        cin>>choice;
+        switch(choice){
+            case 1:{
+                cout<<"enter the node to be inserted :";
+                cin>>n;
+                if(n==0){
+                    
+                }
+                cout<<"enter the element to be inserted : ";
+                cin>>data;
+                obj.addbeg(data);
+                for(i=2;i<=n;i++){
+                    cout<<"enter the element to be inserted : ";
+                    cin>>data;
+                    obj.addend(data);
+                }
+                break;
+            }
+            case 2:{
+                obj.display();
+                break;
+            }
+            case 13:{
+                exit(1);
+            }
+            default:{
+                cout<<"wrong choice\n";
+            }
         }
     }
-    /*function display() call*/
-    // obj.addafter(78,6);
-    // obj.addbefore(75,6);
-    // obj.addpos(65,5);
-    // obj.reverse();
-//    obj.delbeg();
-
-    // obj.delpos(5);
-    obj.create_list();
-    obj.display();
     return 0;
 }
