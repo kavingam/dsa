@@ -134,8 +134,30 @@ class single{
 				ptr=ptr->next;
 			}		
         }
-        void delpos(){
-
+        void delpos(int data){
+            node *tmp,*ptr;
+            if(head == NULL){
+                cout<<"List is empty\n";
+                return;
+            }
+            if(head->data == data){
+                tmp = head;
+                head = head->next;
+                free(tmp);
+                return;
+            }
+            ptr = head;
+            while(ptr->next!=NULL){
+                if(ptr->next->data==data){
+                    tmp = ptr->next;
+                    ptr->next = tmp->next;
+                    free(tmp);
+                    return;
+                }
+                ptr=ptr->next;
+            }
+            printf("element %d not found\n",data);
+            return;
         }
 };
 int main() {
@@ -155,7 +177,8 @@ int main() {
     // obj.addpos(65,5);
     // obj.reverse();
 //    obj.delbeg();
-    obj.delend();
+
+    obj.delpos(5);
     obj.display();
     return 0;
 }
