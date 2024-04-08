@@ -25,6 +25,27 @@ class single{
             }
             cout<<endl;
         }
+        /*creation of a single link list*/
+        /*
+        void create_list(){
+            int i,n,data;
+            printf("Enter the number of nodes :");
+            scanf("%d",&n);
+            if(n==0){
+                return;
+            }
+            printf("enter the element to be inserted : ");
+            scanf("%d",&data);
+            addbeg(data);
+            for(i=0;i<=n;i++){
+                printf("enter the element to be inserted : ");
+                scanf("%d",&data);
+                head = addend(data);
+            }
+            return;
+
+        }
+        */
         /*function addbeg() adds a node at the beggining of the list*/ 
         void addbeg(int data){
             node *ptr = new node;
@@ -117,23 +138,19 @@ class single{
             }
             head = prev;
         }
-        /*functio  delete a first node and between node*/
+        /*function  delete a first node and between node*/
         void delbeg(){
             if(head!=NULL){
-//                printf("%d %d",head->data,head->next->data);
                  node *tmp = head;
                  head = head->next;
                  free(tmp);
             }
         }
-        /**/
+        /*function delete a end node*/ 
         void delend(){
-			node *ptr,*tmp;
-			ptr = head;
-			while(ptr->next != NULL){
-				ptr=ptr->next;
-			}		
+
         }
+        /*function delete a given position node value*/
         void delpos(int data){
             node *tmp,*ptr;
             if(head == NULL){
@@ -159,6 +176,7 @@ class single{
             printf("element %d not found\n",data);
             return;
         }
+        /*End od delpos function*/
 };
 int main() {
     single obj;
@@ -178,7 +196,8 @@ int main() {
     // obj.reverse();
 //    obj.delbeg();
 
-    obj.delpos(5);
+    // obj.delpos(5);
+    obj.create_list();
     obj.display();
     return 0;
 }
