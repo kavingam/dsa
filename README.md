@@ -94,12 +94,12 @@ struct Node {
 
 **Operations:**
 
-**Creation:** 
-<p>Allocate memory for a new node, set its data and next pointer (initially nullptr).</p>
-**Insertion:**
-<p>Add a new node at the beginning, end, or a specific position in the list.</p>
-**Deletion:** 
-<p>Remove a node from the beginning, end, or a specific position in the list.</p>
-**Traversal:** 
-<p>Visit each node in the list, one after another, starting from the head.</p>
+**Creation:** <p>Allocate memory for a new node, set its data and next pointer (initially nullptr).</p>
+
+**Insertion:**<p>Add a new node at the beginning, end, or a specific position in the list.</p>
+
+**Deletion:** <p>Remove a node from the beginning, end, or a specific position in the list.</p>
+
+**Traversal:** <p>Visit each node in the list, one after another, starting from the head.</p>
+
 **Searching:** <p>Find a node with a specific value.</p>
