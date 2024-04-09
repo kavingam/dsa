@@ -203,4 +203,8 @@ public:
 
     Node* temp = head;
     while (temp != nullptr) {
+        std::cout<< tmp->data <<" ";
+        temp = temp->next;
+    }
+}
 ```
