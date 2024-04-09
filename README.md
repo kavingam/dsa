@@ -80,8 +80,10 @@
 
 <p>A single linked list is a linear data structure where elements (nodes) are arranged in a sequential order. Each node contains two parts:</p>
 
-**Data:** <p>The actual value stored in the node.</p>
-**Next Pointer:** <p>A pointer that references the next node in the list. The last node's next pointer points to nullptr (null), indicating the end of the list.</p>
+**Data:** The actual value stored in the node.
+
+**Next Pointer:** A pointer that references the next node in the list. The last node's next pointer points to nullptr (null), indicating the end of the list.
+
 **Structure:**
 
 ```C++
@@ -94,12 +96,12 @@ struct Node {
 
 **Operations:**
 
-**Creation:** <p>Allocate memory for a new node, set its data and next pointer (initially nullptr).</p>
+**Creation:** Allocate memory for a new node, set its data and next pointer (initially nullptr).
 
-**Insertion:**<p>Add a new node at the beginning, end, or a specific position in the list.</p>
+**Insertion:** Add a new node at the beginning, end, or a specific position in the list.
 
-**Deletion:** <p>Remove a node from the beginning, end, or a specific position in the list.</p>
+**Deletion:** Remove a node from the beginning, end, or a specific position in the list.
 
-**Traversal:** <p>Visit each node in the list, one after another, starting from the head.</p>
+**Traversal:** Visit each node in the list, one after another, starting from the head.
 
-**Searching:** <p>Find a node with a specific value.</p>
+**Searching:** Find a node with a specific value.
