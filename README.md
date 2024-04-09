@@ -206,5 +206,6 @@ public:
         std::cout<< tmp->data <<" ";
         temp = temp->next;
     }
+  }
 }
 ```
