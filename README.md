@@ -78,7 +78,8 @@
 **In C++,** a linked list is a linear data structure where elements, called nodes, are not stored in contiguous memory locations. Instead, each node contains two essential parts:
 
 **Data:** This field holds the actual value stored in the node. It can be an integer, string, object, or any other data type you require.
-Next Pointer: This pointer references the next node in the sequence. It's essentially an address that points to the memory location of the next node in the list. The last node's next pointer usually points to nullptr (null), indicating the end of the list.
+
+**Next Pointer:** This pointer references the next node in the sequence. It's essentially an address that points to the memory location of the next node in the list. The last node's next pointer usually points to nullptr (null), indicating the end of the list.
 
 **Types of Linked Lists:**
 
