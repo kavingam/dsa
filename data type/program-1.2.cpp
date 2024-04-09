@@ -1,6 +1,16 @@
 #include <iostream>
 #include <limits>
 
+/*
+C++ uses char data type to store characters, and its size can vary depending on the system (typically 1 byte). This byte can potentially hold a wider range of values (256 for an 8-bit byte).
+
+Here are some key points to remember:
+
+By default, char is signed in C++. This means it can hold values from -128 to 127 (assuming a 1-byte size).
+You can use unsigned char to explicitly store non-negative values (0 to 255 for a 1-byte size).
+The actual character displayed depends on the character set or encoding used by the system (not just ASCII).
+
+*/
 int main() {
     // Using <limits.h> header
     std::cout << "**Using <limits.h> header**\n";
