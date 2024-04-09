@@ -74,7 +74,7 @@
     </ol>
 </details>
 
-##single linked list in C++
+## single linked list in C++
 
 <p>
     
