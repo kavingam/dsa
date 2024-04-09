@@ -111,7 +111,10 @@ struct Node {
 <i>C++ class representing a single linked list</i>
 ```C++
 #include <iostream>
-
+struct Node {
+    int data;
+    Node* next;
+};
 class SingleLinkedList {
 private:
   Node* head; // Pointer to the head node
@@ -207,5 +210,5 @@ public:
         temp = temp->next;
     }
   }
-}
+};
 ```
