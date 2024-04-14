@@ -31,9 +31,10 @@ Basic Operations:
 **Backtracking algorithms:** Stacks are used to keep track of paths explored in algorithms that need to explore multiple possibilities (e.g., maze solving).
 
 **Undo/redo functionality:** Stacks can be used to implement undo/redo functionality in applications.
+Using std::stack:
 
 
-```Using std::stack:
+```
 #include <iostream>
 #include <stack>
 
@@ -52,3 +53,4 @@ int main() {
   return 0;
 }
 ```
+
